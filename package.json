@@ -1,0 +1,25 @@
+{
+  "name": "typechain",
+  "version": "1.0.0",
+  "description": "Lean TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jihun04/typechain.git"
+  },
+  "author": "jihun04",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jihun04/typechain/issues"
+  },
+  "homepage": "https://github.com/jihun04/typechain#readme",
+  "dependencies": {
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.6.0"
+  }
+}
